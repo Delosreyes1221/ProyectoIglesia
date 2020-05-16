@@ -1,0 +1,60 @@
+<!-- Sidebar -->
+<div class="bg-light border-right " id="sidebar-wrapper" >
+    <div class="container " class="divConntainerImage">
+        <div class="align-self-center text-center ">
+            <img src="../../../assets/images/default.png"  class="imagenPerfil mt-3" alt="" >
+        </div>
+    </div>
+
+    <div class="sidebar-heading sideBarMenu text-center col-lg-12 mb-3" >Menu</div>
+    <div class="list-group list-group-flush sideBarLinksClass">
+        <a class="btn-2" [routerLink]="['bautizo']" [routerLinkActive]="['active']">
+            <div class="col-lg-12 row text-center align-self-center borderSide">
+                <div class="col-lg-3 sideBarLinksClass2" style="border: solid;">
+                    <i class="far fa-file fa-2x"></i>
+                </div>
+                <div class="col-lg-8 col-md-12 sideBarLinksClass2 text-left" >
+                    <p>Bautizo</p>
+                </div>
+            </div>
+        </a>
+        <a class="btn-2" [routerLink]="['content']" [routerLinkActive]="['active']">
+            <div class="col-lg-12 row text-center align-self-center borderSide">
+                <div class="col-lg-3 sideBarLinksClass2">
+                    <i class="far fa-file fa-2x"></i>
+                </div>
+                <div class="col-lg-8 sideBarLinksClass2 text-left">
+                    <p>Matrimonio</p>
+                </div>
+            </div>
+        </a>
+        <a class="btn-2" href="#">
+            <div class="col-lg-12 row text-center align-self-center borderSide">
+                <div class="col-lg-3 sideBarLinksClass2">
+                    <i class="far fa-file fa-2x"></i>
+                </div>
+                <div class="col-lg-8 sideBarLinksClass2 text-left">
+                    <p>Documentos</p>
+                </div>
+            </div>
+        </a>
+        <a class="btn-2" href="#">
+            <div class="col-lg-12 row text-center align-self-center borderSide">
+                <div class="col-lg-3 sideBarLinksClass2">
+                    <i class="far fa-file fa-2x"></i>
+                </div>
+                <div class="col-lg-8 sideBarLinksClass2 text-left">
+                    <p>Documentos</p>
+                </div>
+            </div>
+        </a>
+
+    </div>
+</div>
+<!-- /#sidebar-wrapper -->
+
+
+<!-- /#page-content-wrapper -->
+
+
+<!-- /#wrapper -->

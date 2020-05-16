@@ -1,0 +1,29 @@
+<nav class="main-header navbar navbar-expand navbar-white navbar-light navbarClass ">
+
+    <div class="row col-lg-12" >
+        <div class="col-lg-4 col-md-7  divLogo row" >
+            <div class="col-lg-3 col-md-5 col-xs-8" >
+                <img src="../../../assets/images/logo.png" alt="" class="logoClass">
+                
+            </div>
+            <div class=" divTextoLogo col-lg-5 col-md-7 ">
+                <p>DIÓCESIS DE CIUDAD VICTORIA</p>
+            </div>
+          
+        </div>
+    </div>
+   
+    <!-- <div class="col-lg-2">
+        <div class="dropdown dropdownClass">
+            <button class="btn btn-secondary dropdown-toggle dropdownButtonClass" type="button"
+                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+    </div> -->
+</nav>

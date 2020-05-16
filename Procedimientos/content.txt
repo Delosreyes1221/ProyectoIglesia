@@ -1,0 +1,183 @@
+<!-- Page Content -->
+<div id="page-content-wrapper" style="width: 900px;">
+
+    <div class="container-fluid mt-3 ml-1">
+        <div class="card col-lg-8 col-md-8 align-self-center">
+            <div class="card-body ">
+                
+                <form>
+                    <div class="form-row">
+
+                        <div class="col-lg-1">
+                            <p class="parrafoCenter">El día</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <input  type="text" class="form-control inputLine text-center" [ngModel]="myDay" [ngModelOptions]="{standalone: true}">
+                        </div>
+                        <div class="col-lg-1">
+                            <p class="parrafoCenter">de</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="text" class="form-control inputLine text-center" [ngModel]="Month" [ngModelOptions]="{standalone: true}" >
+                        </div>
+                        <div class="col-lg-1">
+                            <p class="parrafoCenter">del año</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="text" class="form-control inputLine text-center" [ngModel]="Year" [ngModelOptions]="{standalone: true}" >
+                        </div>
+                        <div class="col-lg-3">
+                            <p class="parrafoCenter">fue bautizado</p>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-4">
+                            <p class="parrafoCenter">en esta parroquia por el</p>
+                        </div>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control inputLine text-center"  >
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-1 " >
+                            <p class="parrafoRight">a un@</p>
+                        </div>
+                        <div class="col-lg-3">
+                             <select name="" id="" class="form-control text-center selectGenero inputLine text-center" >
+                                 <option value="femenino">Niña</option>
+                                 <option value="masculino">Niño</option>
+                             </select>
+                        </div>
+                        <div class="col-lg-3" >
+                            <p class="parrafoLeft">a quien se le puso por nombre</p>
+                        </div>
+                        <div class="col-lg-5" >
+                            <input type="text" class="form-control inputLine text-center"  >
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-1">
+                            <p class="parrafoLeft">Nació en </p>
+                        </div>
+                        <div class="col-lg-3">
+                            <input type="text" class="form-control inputLine text-center">
+                        </div>
+                        <div class="col-lg-1">
+                            <p class="parrafoCenter">el día</p>
+                        </div>
+                        <div class="col-lg-1">
+                            <input type="text" class="form-control inputLine text-center"  >
+                        </div>
+                        <div class="col-lg-1">
+                            <p class="parrafoCenter">de</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="text" class="form-control inputLine text-center"  >
+                        </div>
+                        <div class="col-lg-1">
+                            <p class="parrafoCenter">de año</p>
+                        </div>
+                        <div class="col-lg-1">
+                            <input type="text" class="form-control inputLine text-center"  >
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-1">
+                            <p class="parrafoLeft">hijo de</p>
+                        </div>
+                        <div class="col-lg-5">
+                            <input type="text" class="form-control inputLine text-center"  >
+                        </div>
+                        <div class="col-lg-1">
+                            <p class="parrafoCenter">y de</p>
+                        </div>
+                        <div class="col-lg-5">
+                            <input type="text" class="form-control inputLine text-center"  >
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-2">
+                            <p class="parrafoLeft">fueron padrinos</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control inputLine text-center"  >
+                        </div>
+                        <div class="col-lg-1">
+                            <p class="parrafoCenter">y</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control inputLine text-center"  >
+                        </div>
+                    </div>
+                   
+           
+                    <div class="form-row">
+                        <div class="col-lg-4">
+                            <p class="parrafoCenter">Como consta en el Libro No.</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="text" class="form-control inputLine">
+                        </div>
+                        <div class="col-lg-1">
+                            <p class="parrafoCenter">Foja</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="text" class="form-control inputLine">
+                        </div>
+                        <div class="col-lg-1">
+                            <p class="parrafoCenter">Acta</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="text" class="form-control inputLine">
+                        </div>
+                    </div>
+               
+                    <div class="form-row">
+                        <div class="col-lg-3">
+                            <p class="parrafoLeft">Notas marginales:</p>
+                        </div>
+                        <div class="col-lg-9">
+                            <input type="text" class="form-control inputLine">
+                        </div>
+                       
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-5">
+                            <p class="parrafoLeft">La presente copia de Bautismo se solicita para:</p>
+                        </div>
+                        <div class="col-lg-7">
+                            <input type="text" class="form-control inputLine">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-3">
+                            <p class="parrafoCenter">Fecha de expedición</p>
+                        </div>
+                        <div class="col-lg-1">
+                            <input type="text" class="form-control inputLine">
+                        </div>
+                        <div class="col-lg-1">
+                            <p class="parrafoCenter">de</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="text" class="form-control inputLine">
+                        </div>
+                        <div class="col-lg-2">
+                            <p class="parrafoCenter">del año</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="text" class="form-control inputLine">
+                        </div>
+                    </div>
+
+                    
+                   
+                    <button type="submit" class="btn btn-primary">Crear</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
